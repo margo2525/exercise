@@ -2,78 +2,97 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">`
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css\reset.css">
 	<link rel="stylesheet" href="css\style.css">
+
 	<title>Document</title>
 </head>
 
 <body>
-	<header>
-		<div class="contener">
-			<div>
-				<img class="header-img" src="img\pexels-photo-248515.webp" alt="" srcset="">
-				<div>
-					<h1>Welcome to Acme Web Solutions</h1>
-					<p class="header-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci eum error earum
-						soluta voluptatum
-						nisi
-						laboriosam eos saepe asperiores dolorum.</p>
-					<button class="button hero-button"><a href="">Read More</a></button>
-				</div>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header-img"></div>
+			<div class="header-text">
+				<h1>Welcome to Acme Web Solutions</h1>
+				<p class="header-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci eum error
+					earum
+					soluta voluptatum
+					nisi
+					laboriosam eos saepe asperiores dolorum.</p>
+				<a class="header-btn" href="#section1">Read More</a>
 			</div>
-		</div>
-	</header>
-	<main>
-		<article>
-			<h2>Web & Application Development</h2>
-			<p class="abstract">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sint eligendi
-				possimus?
-				Unde
-				officiis magnam laborum ipsa distinctio odio, vero dolores</p>
-			<p class="abstract">dicta aliquam aperiam repellendus. Perferendis officiis deserunt velit voluptas nobis
-				sequi
-				animi totam, accusantium, ex eius quia, natus quo?</p>
-		</article>
-		<section class="section-img">
-			<ol class="section-text">
-				<il>
-					<img src="img\pexels-photo-574077.jpeg" alt="" srcset="">
-					<h3>Web Development</h3>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit
-						voluptatum cum maiores exercitationem.</p>
-				</il>
-				<il>
-					<img src="img\pexels-photo-261628.jpeg" alt="">
-					<h3>Mobile Applications</h3>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit
-						voluptatum cum maiores exercitationem.</p>
-				</il>
-				<il>
-					<img src="img\pexels-photo-265087.jpeg" alt="">
-					<h3>Tech Marketing</h3>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit
-						voluptatum cum maiores exercitationem.</p>
-				</il>
-			</ol>
-		</section>
-		<section>
-			<h2>We handle all of your digital needs</h2>
-			<p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime nam rerum vel earum error
-				fugiat
-				cupiditate,
-				dolore eius! Minus, explicabo.</p>
-			<div>
-				<div id="cont" class="contakt">
-					<h4>Contact Us</h4>
-					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, suscipit. Rerum ducimus a quod, ut et
+		</header>
+
+
+		<main class="containers">
+			<article class="content">
+				<div class="element">
+					<h2 class="element1">Web & Application Development</h2>
+					<p class="element2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sint eligendi
+						possimus?
+						Unde
+						officiis magnam laborum ipsa distinctio odio, vero dolores</p>
+					<p class="element3">dicta aliquam aperiam repellendus. Perferendis officiis deserunt velit voluptas nobis
+						sequi
+						animi totam, accusantium, ex eius quia, natus quo?</p>
+				</div>
+			</article>
+			<section id="section1" class="content  section-img ">
+				<div class="section-text">
+					<div class="section-texts">
+						<img src="img\pexels-photo-574077.jpeg" alt="" srcset="">
+						<h3 class="">Web Development</h3>
+						<p class="litexts">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo
+							eum
+							et
+							quasi velit
+							voluptatum cum maiores exercitationem.</p>
+					</div>
+					<div class="section-texts">
+						<img src="img\pexels-photo-261628.jpeg" alt="">
+						<h3 class="">Mobile Applications</h3>
+						<p class="litexts">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo
+							eum
+							et
+							quasi velit
+							voluptatum cum maiores exercitationem.</p>
+					</div>
+					<div class="section-texts">
+						<img src="img\pexels-photo-265087.jpeg" alt="">
+						<h3 class="">Tech Marketing</h3>
+						<p class="litexts">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo
+							eum
+							et
+							quasi velit
+							voluptatum cum maiores exercitationem.</p>
+					</div>
+				</div>
+			</section>
+			<section class="content ">
+				<div class="section2 ">
+					<h2>We handle all of your digital needs</h2>
+					<p class="sectiontext">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime nam rerum vel
+						earumerrorfugiatcupiditate,dolore eius! Minus, explicabo.</p>
+				</div>
+			</section>
+
+			<div class="rowcontact">
+				<div class="contakt">
+					<h3>Contact Us</h3>
+					<p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, suscipit. Rerum
+						ducimus
+						a quod, ut et
 						voluptas obcaecati unde fuga.</p>
 					<a id="contact" href="contact@acmewebsolutions.test"
 						class="contacts-link">contact@acmewebsolutions.test</a>
 				</div>
-				<div class="contakt">
-					<h4>About Our Company</h4>
-					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio earum porro deserunt, deleniti,
+				<div class="contakt1">
+					<h3>About Our Company</h3>
+					<p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio earum porro
+						deserunt, deleniti,
 						quae
 						facere repudiandae, officiis est exercitationem nobis iusto doloremque! Soluta excepturi in aut
 						suscipit
@@ -81,14 +100,14 @@
 				</div>
 			</div>
 
-		</section>
-	</main>
+		</main>
 
-	<footer>
-		<ol class="footer-imets">
-			<il class="footer-imet">Acme Web Solutions</il>
-			<il class="footer-imet">Project By <a id="footer-contact" href="Traversy Media"></a></il>
-		</ol>
+
+		<footer class="footer">
+			<div class="footer-imet">Acme Web Solutions</div>
+			<div class="footer-imet1">Project By <a class="footer-contact" href="">Traversy Media</a></div>
+
+	</div>
 	</footer>
 
 </body>
